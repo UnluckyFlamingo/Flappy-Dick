@@ -11,6 +11,12 @@ TextureImporter:
   - first:
       213: -4906246325242641169
     second: Dick1_2
+  - first:
+      213: -8167876601771619920
+    second: Dick1_3
+  - first:
+      213: -788274562898091547
+    second: Dick1_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,10 +129,10 @@ TextureImporter:
       name: Dick1_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 31
-        width: 112
-        height: 51
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +150,10 @@ TextureImporter:
       name: Dick1_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 31
-        width: 112
-        height: 51
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +171,10 @@ TextureImporter:
       name: Dick1_2
       rect:
         serializedVersion: 2
-        x: 264
-        y: 30
-        width: 112
-        height: 51
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
