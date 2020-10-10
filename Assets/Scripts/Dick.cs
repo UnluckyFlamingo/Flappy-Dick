@@ -35,8 +35,10 @@ public class Dick : MonoBehaviour
     //La funcion "OnCollisionEnter2D" se ejecuta cada vez que se colisiona.
     private void OnCollisionEnter2D()
     {
+        get2D.velocity = Vector2.zero;
         isDead = true; // Cambiamos la variable a true para que no podamos seguir dandole al ratón.
         getAnim.SetTrigger("Die"); //Se activa el trigger "Die" para la animación
+        GameControl.instance.DickDied();
     }
 
 }
