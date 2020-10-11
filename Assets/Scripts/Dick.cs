@@ -28,6 +28,7 @@ public class Dick : MonoBehaviour
                 get2D.velocity = Vector2.zero; // Se iguala la velocidad a 0 para que siempre se obtenga el mismo valor en el salto 
                 get2D.AddForce(new Vector2(0, jump)); // Se aplica la fuerza de la variable "jump" al vector 2, se hace una variable publica para que edite desde el propio unity
                 getAnim.SetTrigger("Flap"); // Se activa el trigger "Flap" para la animación
+                SoundController.instance.PlayJump();
             }
         }
     }
@@ -39,6 +40,7 @@ public class Dick : MonoBehaviour
         isDead = true; // Cambiamos la variable a true para que no podamos seguir dandole al ratón.
         getAnim.SetTrigger("Die"); //Se activa el trigger "Die" para la animación
         GameControl.instance.DickDied();
+        SoundController.instance.PlayDie();
     }
 
 }
